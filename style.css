@@ -1,0 +1,59 @@
+* nav bar */
+.right {
+    float: right;
+}
+
+.left {
+    float: left;
+}
+
+#nav {
+    display: block;
+    background-color: white;
+    display: inline-block;
+    width: 98vw;
+    border-radius: 5px;
+    margin: 6px;
+}
+
+
+
+body {
+    font-family: arial;
+    background-color: grey;
+}
+
+#quizBody {
+    text-align: center;
+  
+}
+
+h4 {
+    padding: 10px 8px 10px 8px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    border: none;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px 16px 10px 16px;
+    font-size: 17px;
+    font-family: arial;
+    margin: 4px;
+}
+
+button:hover {
+    transition-duration: 0.4s;
+    background-color: crimson;
+    
+}
+
+#quiz {
+    text-align: center;
+}
